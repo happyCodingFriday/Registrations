@@ -8,7 +8,8 @@ namespace Registrations.Entities
         public Address Address { get; set; }
 
         [Required]
-        [StringLength(120, MinimumLength = 1)]
+        [MaxLength(120)]
+        [MinLength(1)]
         public string Name { get; set; }
 
     }

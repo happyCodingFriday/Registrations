@@ -50,7 +50,7 @@ namespace Registrations.Controllers
 
                 Person = registration.Person,
 
-                CreatedDate = DateTimeOffset.UtcNow
+                RegistrationDate = DateTimeOffset.UtcNow
             };
 
             repository.CreateRegistration(newRegistration);

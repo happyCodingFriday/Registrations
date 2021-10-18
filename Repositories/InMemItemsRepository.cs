@@ -10,7 +10,7 @@ namespace Registrations.Repositories
 
         private readonly List<Registration> registrations = new()
         {
-            new Registration { RegistrationId = Guid.NewGuid(), CreatedDate = DateTimeOffset.UtcNow }
+            new Registration { RegistrationId = Guid.NewGuid(), RegistrationDate = DateTimeOffset.UtcNow }
         };
 
         public Registration GetRegistration(Guid registrationId)

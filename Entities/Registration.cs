@@ -14,7 +14,7 @@ namespace Registrations.Entities
 
         public Person Person { get; set; }
 
-        public DateTimeOffset CreatedDate { get; init; }
+        public DateTimeOffset RegistrationDate { get; init; }
 
     }
 }
